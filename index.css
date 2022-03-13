@@ -1,0 +1,98 @@
+*{padding: 0; margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: #949494;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 25px;
+    background-color: #fff;
+  width: 500px;
+  margin-left: 255px;
+  height: 35px;
+  margin-top: 10px ;
+  
+  box-shadow: 2px 2px 2px #6d6d6dcc;
+}
+
+.form{
+    display: flex;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 25px;
+    background-color: none;
+    margin-right: 150px;
+    outline: none;
+    width: 300px;
+    float: left;
+    padding: 10px;
+    justify-content: flex-end;
+    font-size: 14px;
+    font-weight: 510;
+
+}
+
+.img{       width: 280px;
+            height: 280px;
+          display: flex;
+          flex-direction: column;
+          flex-shrink: 0;
+          justify-content: flex-end;
+}
+        .imagecontainer {
+        display: flex;
+          height: fit-content;
+          position: relative;
+          left: 345px;
+          top: 100px;
+          bottom: 70px;
+
+          padding: 25px;
+          width: fit-content;
+          justify-content: center;
+          align-content: center;
+      }
+      
+      .imag {
+        max-height: var(--ntp-logo-height);
+          max-width: 100%;
+      }
+
+      .container-img{
+          display: flex;
+          justify-content: center;
+          flex-direction: row;
+          align-items: center;
+          margin-top: 25px;
+      }
+
+      .container-img .amz, .in, .fb, .ntf, .ytb {
+          padding: 13px;
+          margin: 20px;
+          width: 52px;
+          height: 52px;
+          background-color: #ececec;
+          border-radius: 50px;
+      }
+
+      .cx-in, .cx-fb, .cx-amz, .cx-ytb, .cx-ntf {
+          display: flex;
+          position: relative;
+          justify-content: center;
+          flex-direction: row;
+          align-items: center;
+      }
+      .cx-amz:hover, .cx-in:hover, .cx-fb:hover, .cx-ntf:hover, .cx-ytb:hover {
+          width: 100px;
+          height: 110px;
+          border-radius: 5px;
+        background-color: #f8f8f831;
+      }
+
